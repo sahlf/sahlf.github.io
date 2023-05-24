@@ -2816,7 +2816,7 @@ Function Core
 				var rcBounds = $(this)[0].getBoundingClientRect();		  
 				var positionX = rcBounds.left - offsetX + 10;
 				var positionY = rcBounds.top + rcBounds.height/2;		  
-				gsap.to(ball, { duration: 0.5, x: positionX, y: positionY, scale:0.7, opacity:0.6, borderWidth: '6px', borderColor:'#999999'});
+				gsap.to(ball, { duration: 0.5, x: positionX, y: positionY, scale:0.7, opacity:0.6, borderWidth: '6px', borderColor:'#F2FE62'});
 				gsap.ticker.remove(updatePosition);
 			})
 			
@@ -2824,12 +2824,12 @@ Function Core
 				var rcBounds = $(this)[0].getBoundingClientRect();		  
 				var positionX = rcBounds.right + offsetX - 10;
 				var positionY = rcBounds.top + rcBounds.height/2;		  
-				gsap.to(ball, { duration: 0.5, x: positionX, y: positionY, scale:0.7, opacity:0.6, borderWidth: '6px', borderColor:'#999999'});
+				gsap.to(ball, { duration: 0.5, x: positionX, y: positionY, scale:0.7, opacity:0.6, borderWidth: '6px', borderColor:'#F2FE62'});
 				gsap.ticker.remove(updatePosition);
 			})
 			
 			$(".sticky").mouseleave(function(e) {			
-				gsap.to(ball, { duration: 0.2, scale:0.5, borderWidth: '4px', borderColor:'#999999', opacity:1 });
+				gsap.to(ball, { duration: 0.2, scale:0.5, borderWidth: '4px', borderColor:'#F2FE62', opacity:1 });
 				gsap.ticker.add(updatePosition);		  
 			})	
 			
@@ -2841,7 +2841,7 @@ Function Core
 			});
 			
 			$("#main .parallax-wrap.icon-wrap").mouseenter(function(e) {
-				gsap.to(ball, { duration: 0.3, scale: 0.7, borderWidth: '6px', opacity:0.6, borderColor:'#999' });
+				gsap.to(ball, { duration: 0.3, scale: 0.7, borderWidth: '6px', opacity:0.6, borderColor:'#F2FE62' });
 			});
 			
 			$(".parallax-wrap.bigger").mouseenter(function(e) {
@@ -2850,7 +2850,7 @@ Function Core
 			
 			$(".parallax-wrap").mouseleave(function(e) {
 				gsap.to(this, { duration: 0.3, scale: 1 });
-				gsap.to(ball, { duration: 0.3, scale: 0.5, borderWidth: '4px', opacity:1, borderColor:'#999999'  });
+				gsap.to(ball, { duration: 0.3, scale: 0.5, borderWidth: '4px', opacity:1, borderColor:'#F2FE62'  });
 				gsap.to($( this ).children(), {duration: 0.3, scale:1, x: 0, y:0});
 				active = false;
 			});		
@@ -2860,7 +2860,7 @@ Function Core
 				  gsap.to(ball, { duration: 0.5, borderColor:$("body").data('primary-color') });
 				})
 				$("#main .sticky").mouseenter(function(e) {
-				  gsap.to(ball, { duration: 0.5, borderColor:'#999' });
+				  gsap.to(ball, { duration: 0.5, borderColor:'#F2FE62' });
 				})
 				$(".parallax-wrap").mouseenter(function(e) {
 					gsap.to(ball, { duration: 0.3, borderColor:$("body").data('primary-color')  });
@@ -2869,14 +2869,14 @@ Function Core
 					gsap.to(ball, { duration: 0.3, borderColor:$("body").data('primary-color')  });
 				});
 				$("#main .parallax-wrap.icon-wrap").mouseenter(function(e) {
-					gsap.to(ball, { duration: 0.3, borderColor:'#999'});
+					gsap.to(ball, { duration: 0.3, borderColor:'#F2FE62'});
 				});
 			} else {
 				$(".sticky").mouseenter(function(e) {
 				  gsap.to(ball, { duration: 0.5, borderColor:$("body").data('primary-color') });
 				})
 				$("#main .sticky").mouseenter(function(e) {
-				  gsap.to(ball, { duration: 0.5, borderColor:'#999' });
+				  gsap.to(ball, { duration: 0.5, borderColor:'#F2FE62' });
 				})
 				$(".parallax-wrap").mouseenter(function(e) {
 					gsap.to(ball, { duration: 0.3, borderColor:$("body").data('primary-color') });
@@ -2885,7 +2885,7 @@ Function Core
 					gsap.to(ball, { duration: 0.3, borderColor:$("body").data('primary-color')  });
 				});
 				$("#main .parallax-wrap.icon-wrap").mouseenter(function(e) {
-					gsap.to(ball, { duration: 0.3, borderColor:'#999'});
+					gsap.to(ball, { duration: 0.3, borderColor:'#F2FE62'});
 				});
 			}
 			
@@ -3076,7 +3076,7 @@ Function Core
 						var rcBounds = $(this)[0].getBoundingClientRect();		  
 						var positionX = rcBounds.left - offsetX + 10;
 						var positionY = rcBounds.top + rcBounds.height/2;		  
-						gsap.to(ball, { duration: 0.5, x: positionX, y: positionY, scale:0.7, opacity:0.6, borderWidth: '6px', borderColor:'#999999'});
+						gsap.to(ball, { duration: 0.5, x: positionX, y: positionY, scale:0.7, opacity:0.6, borderWidth: '6px', borderColor:'#F2FE62'});
 						gsap.ticker.remove(updatePosition);
 					})
 					
@@ -3084,12 +3084,12 @@ Function Core
 						var rcBounds = $(this)[0].getBoundingClientRect();		  
 						var positionX = rcBounds.right + offsetX - 10;
 						var positionY = rcBounds.top + rcBounds.height/2;		  
-						gsap.to(ball, { duration: 0.5, x: positionX, y: positionY, scale:0.7, opacity:0.6, borderWidth: '6px', borderColor:'#999999'});
+						gsap.to(ball, { duration: 0.5, x: positionX, y: positionY, scale:0.7, opacity:0.6, borderWidth: '6px', borderColor:'#F2FE62'});
 						gsap.ticker.remove(updatePosition);
 					})
 					
 					$(".sticky").mouseleave(function(e) {			
-						gsap.to(ball, { duration: 0.2, scale:0.5, borderWidth: '4px', borderColor:'#999999', opacity:1 });
+						gsap.to(ball, { duration: 0.2, scale:0.5, borderWidth: '4px', borderColor:'#F2FE62', opacity:1 });
 						gsap.ticker.add(updatePosition);		  
 					})		
 					
@@ -3101,7 +3101,7 @@ Function Core
 					});
 					
 					$("#main .parallax-wrap.icon-wrap").mouseenter(function(e) {
-						gsap.to(ball, { duration: 0.3, scale: 0.7, borderWidth: '6px', opacity:0.6, borderColor:'#999' });
+						gsap.to(ball, { duration: 0.3, scale: 0.7, borderWidth: '6px', opacity:0.6, borderColor:'#F2FE62' });
 					});
 					
 					$(".parallax-wrap.bigger").mouseenter(function(e) {
@@ -3110,7 +3110,7 @@ Function Core
 					
 					$(".parallax-wrap").mouseleave(function(e) {
 						gsap.to(this, { duration: 0.3, scale: 1 });
-						gsap.to(ball, { duration: 0.3, scale: 0.5, borderWidth: '4px', opacity:1, borderColor:'#999999'  });
+						gsap.to(ball, { duration: 0.3, scale: 0.5, borderWidth: '4px', opacity:1, borderColor:'#F2FE62'  });
 						gsap.to($( this ).children(), {duration: 0.3, scale:1, x: 0, y:0});
 						active = false;
 					});		
@@ -3120,7 +3120,7 @@ Function Core
 						  gsap.to(ball, { duration: 0.5, borderColor:$("body").data('primary-color') });
 						})
 						$("#main .sticky").mouseenter(function(e) {
-						  gsap.to(ball, { duration: 0.5, borderColor:'#999' });
+						  gsap.to(ball, { duration: 0.5, borderColor:'#F2FE62' });
 						})
 						$(".parallax-wrap").mouseenter(function(e) {
 							gsap.to(ball, { duration: 0.3, borderColor:$("body").data('primary-color')  });
@@ -3129,14 +3129,14 @@ Function Core
 							gsap.to(ball, { duration: 0.3, borderColor:$("body").data('primary-color')  });
 						});
 						$("#main .parallax-wrap.icon-wrap").mouseenter(function(e) {
-							gsap.to(ball, { duration: 0.3, borderColor:'#999'});
+							gsap.to(ball, { duration: 0.3, borderColor:'#F2FE62'});
 						});
 					} else {
 						$(".sticky").mouseenter(function(e) {
 						  gsap.to(ball, { duration: 0.5, borderColor:$("body").data('primary-color') });
 						})
 						$("#main .sticky").mouseenter(function(e) {
-						  gsap.to(ball, { duration: 0.5, borderColor:'#999' });
+						  gsap.to(ball, { duration: 0.5, borderColor:'#F2FE62' });
 						})
 						$(".parallax-wrap").mouseenter(function(e) {
 							gsap.to(ball, { duration: 0.3, borderColor:$("body").data('primary-color') });
@@ -3145,7 +3145,7 @@ Function Core
 							gsap.to(ball, { duration: 0.3, borderColor:$("body").data('primary-color')  });
 						});
 						$("#main .parallax-wrap.icon-wrap").mouseenter(function(e) {
-							gsap.to(ball, { duration: 0.3, borderColor:'#999'});
+							gsap.to(ball, { duration: 0.3, borderColor:'#F2FE62'});
 						});
 					}
 					
