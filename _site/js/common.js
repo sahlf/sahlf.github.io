@@ -2931,12 +2931,12 @@ Function Core
 			});
 			
 			$(".link, .button").mouseenter(function(e) {	
-				gsap.to('#ball', {duration: 0.2, borderWidth:"0px",scale:1.5,backgroundColor:"rgba(153, 153, 153, 1)",opacity:0.15});
+				gsap.to('#ball', {duration: 0.2, borderWidth:"0px",scale:1.5,backgroundColor:"rgba(242, 254, 98, 1)",opacity:0.15});
 				gsap.to('#ball-loader', {duration: 0.2, borderWidth: '2px', top: 4, left: 4});
 			});	
 					
 			$(".link, .button").mouseleave(function(e) {
-				gsap.to('#ball', {duration: 0.3, borderWidth:"4px",scale:0.5,backgroundColor:"rgba(153, 153, 153, 0)",opacity:1});
+				gsap.to('#ball', {duration: 0.3, borderWidth:"4px",scale:0.5,backgroundColor:"rgba(242, 254, 98, 1)",opacity:1});
 				gsap.to('#ball-loader', {duration: 0.2, borderWidth: '4px', top: 0, left: 0});
 			});
 			
@@ -3191,12 +3191,12 @@ Function Core
 					});
 					
 					$(".link, .button").mouseenter(function(e) {	
-						gsap.to('#ball', {duration: 0.2, borderWidth:"0px",scale:1.5,backgroundColor:"rgba(153, 153, 153, 1)",opacity:0.15});
+						gsap.to('#ball', {duration: 0.2, borderWidth:"0px",scale:1.5,backgroundColor:"rgba(242, 254, 98, 1)",opacity:0.15});
 						gsap.to('#ball-loader', {duration: 0.2, borderWidth: '2px', top: 4, left: 4});
 					});
 								
 					$(".link, .button").mouseleave(function(e) {
-						gsap.to('#ball', {duration: 0.3, borderWidth:"4px",scale:0.5,backgroundColor:"rgba(153, 153, 153, 0)",opacity:1});
+						gsap.to('#ball', {duration: 0.3, borderWidth:"4px",scale:0.5,backgroundColor:"rgba(242, 254, 98, 1)",opacity:1});
 						gsap.to('#ball-loader', {duration: 0.2, borderWidth: '4px', top: 0, left: 0});
 					});
 					
