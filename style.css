@@ -12,6 +12,13 @@ Primary use:	Showcase Portfolio
 @import url("css/shortcodes.css");
 @import url("css/assets.css");
 
+@font-face {
+  font-family: 'pp_neue_machina';
+  src: url('webfonts/PPNeueMachina-InktrapRegular.woff2') format('woff2'), 
+       url('webfonts/PPNeueMachina-InktrapRegular.woff') format('woff'), 
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'basis_grotesque_proregular';
